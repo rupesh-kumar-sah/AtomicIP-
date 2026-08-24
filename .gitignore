@@ -4,12 +4,9 @@ target/
 **/test_snapshots/
 
 # Environment secrets
-.env
-.env.local
 .env.*.local
 
 # Editor/IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -25,3 +22,5 @@ fuzz/corpus/*/crashes/
 
 # Project issues file
 vrickish.md
+config.bat
+node_modules
