@@ -16,8 +16,6 @@ target/
 api-server/Cargo.lock
 
 # ── Environment / secrets ─────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -25,7 +23,6 @@ api-server/Cargo.lock
 secrets.toml
 
 # ── Editor / IDE ──────────────────────────────────────────────────────────────
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -68,3 +65,4 @@ coverage/
 vrickish.md
 TODO.local.md
 NOTES.md
+config.bat
